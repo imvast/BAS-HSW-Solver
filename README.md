@@ -4,7 +4,7 @@ Change key in Grab fingerprint action in record mode, then exit record mode and 
 ## Setup instructions (by vast)
 - Download https://bablosoft.com/shop/BrowserAutomationStudio
 - Setup ur own hsw api thing to send and receive the keys
-- Proxy your local connection to whatever your host is
+- Proxy your local connection to whatever your host is (this is only needed if you host the hsw api elsewhere)
 ```js
 const httpProxy = require('http-proxy');
 const http = require('http');
